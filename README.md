@@ -1,5 +1,6 @@
-# Final Project
-## Vegan Snack Recommender | ### Python (Web Scraping, Clustering), Tableau
+# Final Project | Vegan Snack Recommender
+<br>
+## Python (Web Scraping, Clustering), Tableau
 
 ![photo](https://latestvegannews.com/wp-content/uploads/2019/07/91FFqqXvBhL._SL1500_.jpg)
 
@@ -7,11 +8,11 @@
 
 ### Project goal
 
-With this project I am applying everything what I have learned so far during my Data Analytics course.
+With my final project I want to showcase what I have learned during my Data Analytics.
 
 
 **Objective:** <br>
-The goal of this project is to be able to predict if a credit card offer will be accepted by a specific customer or not based on specific variables. There are also other potential areas of opportunities that the bank wants to understand from the data.
+The goal of this project is to be able to build a function which recommends you more similar vegan snacks according to your taste and current preferences. To do so I am using the clustering algorithm k-means. The clusters are later analyzed 
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -106,8 +107,14 @@ The data set provides information about:
 
 **Future score of work**
 
-Possible future improvements on the machine learning models could be:
-
+Possible future improvements of the model could include:
+- increasing the size of the data set by webscraping even more websites
+- including more features in the dataframe:
+    - snack category (e.g. chocolate, chips, protein bars, etc.)
+    - organic (yes/no)
+    - allergenes
+    - ingredients 
+- text analysis of product description/ingredients
 
 ---------------------------------------------------------------------------------------------------------
 ### Modules used for Python analysis
