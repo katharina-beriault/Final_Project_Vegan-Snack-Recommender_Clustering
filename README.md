@@ -1,5 +1,5 @@
-# Final-project
-## Vegan Snack Recommender | Python (Web Scraping, Clustering), Tableau
+# Final Project
+## Vegan Snack Recommender | ### Python (Web Scraping, Clustering), Tableau
 
 ![photo](https://latestvegannews.com/wp-content/uploads/2019/07/91FFqqXvBhL._SL1500_.jpg)
 
@@ -38,7 +38,7 @@ This repository contains x folders:<br>
 
 ### Project data
 
-> 1232 rows and 17 columns
+> 1232 rows and 14 columns
 
 The data set provides information about:
 
@@ -49,13 +49,13 @@ The data set provides information about:
 | Brand (new) | only brands with appear >10 times + 'Others' | categorical |
 | Price | in EUR | numerical |
 | Weight | in kg | numerical |
-| kJ | kilo Joule | numerical |
-| kcal | calories | numerical |  
-| Fat  | fats (in g/ 100 g) | numerical |
-| Sat Fat | saturated fats (in g/ 100 g) | numerical |
-| Carbs | carbohydrates (in g/ 100 g) | numerical |
-| Sugar | sugar (in g/ 100 g) | numerical |
-| Protein  |  protein (in g/ 100 g) | numerical |
+| kJ | kilojoule per 100 g | numerical |
+| kcal | calories per 100 g | numerical |  
+| Fat  | fats (in g / 100 g) | numerical |
+| Sat Fat | saturated fats (in g / 100 g) | numerical |
+| Carbs | carbohydrates (in g / 100 g) | numerical |
+| Sugar | sugar (in g / 100 g) | numerical |
+| Protein  |  protein (in g / 100 g) | numerical |
 | Product link  | link to product website | categorical |
 | Photo link  | link to product photo | categorical |
 
