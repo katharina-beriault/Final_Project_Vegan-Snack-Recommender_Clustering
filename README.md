@@ -1,7 +1,7 @@
 # Final-project
 ## Vegan Snack Recommender | Python (Web Scraping, Clustering), Tableau
 
-![photo](https://www.rd.com/wp-content/uploads/2018/04/creditcard-2.jpg)
+![photo](https://latestvegannews.com/wp-content/uploads/2019/07/91FFqqXvBhL._SL1500_.jpg)
 
 ---------------------------------------------------------------------------------------------------------
 
