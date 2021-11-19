@@ -1,8 +1,0 @@
-- difficulties to get started
-- worried about next steps
-
-- size of the data set
-- only one food category?
-- how many websites?
-- pictures of food
-- how to structure recommender? (article names are very specific)
