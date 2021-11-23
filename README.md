@@ -1,6 +1,5 @@
-# Final Project | Vegan Snack Recommender
-<br>
-## Python (Web Scraping, Clustering), Tableau
+# Final Project | Vegan Snack Recommender <br>
+## Python (Web Scraping, Clustering), Tableau <br>
 
 ![photo](https://latestvegannews.com/wp-content/uploads/2019/07/91FFqqXvBhL._SL1500_.jpg)
 
