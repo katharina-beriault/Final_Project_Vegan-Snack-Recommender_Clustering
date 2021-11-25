@@ -68,11 +68,44 @@ cl_1_name = cl_1[1]
 cl_2_name = cl_2[1]
 cl_3_name = cl_3[1]
 
+# adjusted function to get product details for final data frame
+def get_details_adj(df, pos):
+    
+    name = df['product'].values[pos]
+    link = df['product_link'].values[pos]
+    photo = df['photo_link'].values[pos]
+    
+    return name, link, photo
+
+# final recommender function
+def product_recommender(df, product):
+    
+    counter = -1
+    
+    for p in df['product']:
+        
+        counter +=1
+        
+        if p == product:
+            cluster_product = df['cluster_2'].iloc[counter]
+            
+            new_snacks = df[df['cluster_2'] == cluster_product].sample(5)
+            
+            snack_1 = get_details_adj(new_snacks, 0)
+            snack_2 = get_details_adj(new_snacks, 1)
+            snack_3 = get_details_adj(new_snacks, 2)
+            snack_4 = get_details_adj(new_snacks, 3)
+            snack_5 = get_details_adj(new_snacks, 4)
+            
+        else:
+            continue
+    
+    return snack_1, snack_2, snack_3, snack_4, snack_5
     
 # Create a button, that when clicked, shows a text
 if(st.button("START")):
     st.markdown('##')
-    st.text("Please select the snack that looks most tasty to you. If you don't like these snack options, just click start again.")
+    st.text("Please select the snack that looks most tasty to you.")
     st.text("If you don't like these snack options, just click start again.")
 
     # create grid for photos
@@ -103,9 +136,29 @@ if(st.button("START")):
     
     option = st.selectbox("Select your favorite snack from this sample:", ('Choose a snack', cl_0_name, cl_1_name, cl_2_name, cl_3_name))
     
-    
     if len(option) == 0 or option == 'Choose a snack':
         st.write("We can understand the decision is difficult :P")
     
     else:
+        #confirming choice
         st.write('You selected:', option)
+        
+        # creating final data frame
+        final_snacks = product_recommender(df, option)
+        
+        # storing chosen cluster in variable
+        cluster = final_snacks[0]
+
+        if cluster == 0:
+            st.write("This snack belongs to the first cluster")
+
+        elif cluster == 1:
+            st.write("This snack belongs to the second cluster")
+
+        elif cluster == 2:
+            st.write("This snack belongs to the third cluster")
+
+        elif cluster == 3:
+            st.write("This snack belongs to the forth cluster")
+        
+        
