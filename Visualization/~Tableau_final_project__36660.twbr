@@ -52,9 +52,10 @@
             <column datatype='real' name='salt' ordinal='14' />
             <column datatype='string' name='product_link' ordinal='15' />
             <column datatype='string' name='photo_link' ordinal='16' />
-            <column datatype='string' name='brand_new' ordinal='17' />
-            <column datatype='integer' name='cluster' ordinal='18' />
-            <column datatype='integer' name='cluster_2' ordinal='19' />
+            <column datatype='real' name='price_weight' ordinal='17' />
+            <column datatype='string' name='brand_new' ordinal='18' />
+            <column datatype='integer' name='cluster' ordinal='19' />
+            <column datatype='integer' name='cluster_2' ordinal='20' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0eb4gzl0jmk2wz1e8dd3w1ph5f3v' name='df_comma.csv' table='[df_comma#csv]' type='table'>
@@ -76,9 +77,10 @@
             <column datatype='real' name='salt' ordinal='14' />
             <column datatype='string' name='product_link' ordinal='15' />
             <column datatype='string' name='photo_link' ordinal='16' />
-            <column datatype='string' name='brand_new' ordinal='17' />
-            <column datatype='integer' name='cluster' ordinal='18' />
-            <column datatype='integer' name='cluster_2' ordinal='19' />
+            <column datatype='real' name='price_weight' ordinal='17' />
+            <column datatype='string' name='brand_new' ordinal='18' />
+            <column datatype='integer' name='cluster' ordinal='19' />
+            <column datatype='integer' name='cluster_2' ordinal='20' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
@@ -320,12 +322,24 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[df_comma.csv_1F552A03804B49F295D6ECA6117E4003]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
+            <remote-name>price_weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[price_weight]</local-name>
+            <parent-name>[df_comma.csv]</parent-name>
+            <remote-alias>price_weight</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[df_comma.csv_1F552A03804B49F295D6ECA6117E4003]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
             <remote-name>brand_new</remote-name>
             <remote-type>129</remote-type>
             <local-name>[brand_new]</local-name>
             <parent-name>[df_comma.csv]</parent-name>
             <remote-alias>brand_new</remote-alias>
-            <ordinal>17</ordinal>
+            <ordinal>18</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -340,7 +354,7 @@
             <local-name>[cluster]</local-name>
             <parent-name>[df_comma.csv]</parent-name>
             <remote-alias>cluster</remote-alias>
-            <ordinal>18</ordinal>
+            <ordinal>19</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -352,7 +366,7 @@
             <local-name>[cluster_2]</local-name>
             <parent-name>[df_comma.csv]</parent-name>
             <remote-alias>cluster_2</remote-alias>
-            <ordinal>19</ordinal>
+            <ordinal>20</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -426,9 +440,10 @@
                   <column datatype='real' name='salt' ordinal='14' />
                   <column datatype='string' name='product_link' ordinal='15' />
                   <column datatype='string' name='photo_link' ordinal='16' />
-                  <column datatype='string' name='brand_new' ordinal='17' />
-                  <column datatype='integer' name='cluster' ordinal='18' />
-                  <column datatype='integer' name='cluster_2' ordinal='19' />
+                  <column datatype='real' name='price_weight' ordinal='17' />
+                  <column datatype='string' name='brand_new' ordinal='18' />
+                  <column datatype='integer' name='cluster' ordinal='19' />
+                  <column datatype='integer' name='cluster_2' ordinal='20' />
                 </columns>
               </relation>
             </properties>
@@ -2267,7 +2282,7 @@
             <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
             <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
             <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
-              <flipboard active-id='2' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='df_1' captured-sheet='ov_1.1' id='1' />
                   <story-point caption='df_1' captured-sheet='ov_1.2' id='2' />
@@ -2392,8 +2407,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2200' minheight='2200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='46' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='45' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='48' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='47' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='188' h='24500' id='9' is-fixed='true' name='count (0)' w='49200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2555,8 +2570,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='38' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='40' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='count_cl' w='49200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2679,8 +2694,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='33' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='35' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='208' h='27000' id='3' is-fixed='true' name='fat' w='49200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2810,8 +2825,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='38' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='40' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='26' is-fixed='true' name='count_cl_2' w='49200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2938,8 +2953,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='45' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='44' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='46' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='208' h='27000' id='29' is-fixed='true' name='fat_2' w='49200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3017,7 +3032,7 @@
       <simple-id uuid='{2DF4B9D7-5DBD-4480-8174-EBDF52BFECC3}' />
     </dashboard>
   </dashboards>
-  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+  <windows source-height='44'>
     <window class='worksheet' name='count_cl'>
       <cards>
         <edge name='left'>
@@ -3950,7 +3965,7 @@
       <active id='-1' />
       <simple-id uuid='{12F7156D-7172-452A-BA92-EAFC3C24495F}' />
     </window>
-    <window class='dashboard' maximized='true' name='ov_2.2'>
+    <window class='dashboard' name='ov_2.2'>
       <viewpoints>
         <viewpoint name='carbs_2'>
           <zoom type='entire-view' />
@@ -3994,7 +4009,7 @@
       <active id='-1' />
       <simple-id uuid='{8867ECE3-5568-4FA0-BCA5-65244A4B9362}' />
     </window>
-    <window class='dashboard' name='Story 1'>
+    <window class='dashboard' maximized='true' name='Story 1'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{DA391603-E101-4437-90DB-70DDF82E509A}' />
