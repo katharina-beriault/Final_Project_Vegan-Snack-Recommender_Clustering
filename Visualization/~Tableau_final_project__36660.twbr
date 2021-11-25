@@ -3586,7 +3586,7 @@
       </cards>
       <simple-id uuid='{1600B64C-902E-45A6-81B5-BD26CCE952BA}' />
     </window>
-    <window class='worksheet' name='sugar'>
+    <window class='worksheet' maximized='true' name='sugar'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4009,7 +4009,7 @@
       <active id='-1' />
       <simple-id uuid='{8867ECE3-5568-4FA0-BCA5-65244A4B9362}' />
     </window>
-    <window class='dashboard' maximized='true' name='Story 1'>
+    <window class='dashboard' name='Story 1'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{DA391603-E101-4437-90DB-70DDF82E509A}' />

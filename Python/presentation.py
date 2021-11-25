@@ -105,7 +105,7 @@ def product_recommender(df, product):
 # Create a button, that when clicked, shows a text
 if(st.button("START")):
     st.markdown('##')
-    st.text("Please select the snack that looks most tasty to you.")
+    st.text("Please select the snack that appears to be the most tasty to you.")
     st.text("If you don't like these snack options, just click start again.")
 
     # create grid for photos

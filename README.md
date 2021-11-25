@@ -7,11 +7,11 @@
 
 ### Project goal
 
-With my final project I want to showcase what I have learned during my Data Analytics.
+With my final project I want to showcase what I have learned during my six months of the Data Analytics bootcamp with Ironhack.
 
 
 **Objective:** <br>
-The goal of this project is to be able to build a function which recommends you more similar vegan snacks according to your taste and current preferences. To do so I am using the clustering algorithm k-means. The clusters are later analyzed 
+The goal of this project is to be able to build a function which recommends you more similar vegan snacks according to your taste and current preferences. To do so I am using the clustering algorithm K-means. The clusters are later analyzed 
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -70,22 +70,20 @@ The data set provides information about:
     - Using Kanban Board to save ressources and references
 
 2. **Web Scraping with BeautifulSoup**
-    - Creating a database and table within SQL-Workbench
-    - Writing the right queries to extract the information we need
+    - Scraping information from three different websites
+    - Writing functions to get the same data from each website
 
 3. **Preparing and exploring the data with Python**
     - Cleaning the scraped data and merging it into one dataframe
     - Exploring the data (statistically and visually)
-    - Performing data cleaning and data wrangling in Python
+    
+4.  **Clustering the data with K-means algorithm** 
+    - Scaling the data and fitting the model (Python)
+    - Analyzing the clusters (Tableau)
   
-4.  **Clustering the data with K means algorithm** 
-    - Fitting the models
-    - Iterating on the models to get more optimized results
-  
-5. **Presenting the results with Tableau** 
-    - Producing documentation to make the project accessible
+5. **Presenting the results with Tableau, Canva and Streamlit** 
+    - Producing documentation to make the project accessible 
     - Building engaging presentations
-    - Including storytelling to my presentation
 
 
 ---------------------------------------------------------------------------------------------------------
