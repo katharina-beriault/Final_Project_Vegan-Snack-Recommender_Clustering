@@ -94,9 +94,9 @@ The data set provides information about:
 
 **Clustering model results**
 
-![photo](https://latestvegannews.com/wp-content/uploads/2019/07/91FFqqXvBhL._SL1500_.jpg)
+![photo](https://raw.githubusercontent.com/katharina-beriault/Final_Project_Vegan-Snack-Recommender_Clustering/main/Visualization/overview_1.png)
 
-![photo](https://latestvegannews.com/wp-content/uploads/2019/07/91FFqqXvBhL._SL1500_.jpg)
+![photo](https://raw.githubusercontent.com/katharina-beriault/Final_Project_Vegan-Snack-Recommender_Clustering/main/Visualization/overview_2.png)
 
 
 |	Cluster no. 0	|	Cluster no. 1	|	Cluster no. 2	|	Cluster no. 3	|
@@ -108,9 +108,9 @@ The data set provides information about:
 
 
 
-**User experience with Streamlit:**
+**User experience with Streamlit**
 - a user will view a sample of four random products
-- after choosing the most appealing snack a new random sample of five similar products (=same cluster) is shown
+- after choosing the most appealing snack a new random sample of five similar products (= same cluster) is shown
 - via the product link the user can directly access an online shop to buy the product
 
 
