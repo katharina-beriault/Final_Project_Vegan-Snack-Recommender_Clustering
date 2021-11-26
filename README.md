@@ -100,9 +100,9 @@ Check out the Tableau visualization [here](https://github.com/katharina-beriault
 |	Cluster no. 0	|	Cluster no. 1	|	Cluster no. 2	|	Cluster no. 3	|
 |	:----------	|	:----------	|	:----------	|	:----------	|
 |	low weight	|	low price	|	low calories	|	high price and weight	|
-|	high calories	|	low fibre	|	low fat	|	high fibre and protein	|
-| high fat	|	medium fat and carbs	| high carbs and sugar	|	high salt	|
-|	low carbs	|		|		|		|
+|	high calories	|	low fibre	|	low fat	|	high fibre 	|
+| high fat	|	medium fat 	| high carbs |	high protein	|
+|	low carbs	|	medium carbs	|	high sugar	|	hight salt	|
 
 
 
