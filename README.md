@@ -94,9 +94,7 @@ The data set provides information about:
 
 **Clustering model results**
 
-![photo](https://raw.githubusercontent.com/katharina-beriault/Final_Project_Vegan-Snack-Recommender_Clustering/main/Visualization/overview_1.png)
-
-![photo](https://raw.githubusercontent.com/katharina-beriault/Final_Project_Vegan-Snack-Recommender_Clustering/main/Visualization/overview_2.png)
+Check out the Tableau visualization [here](https://github.com/katharina-beriault/Final_Project_Vegan-Snack-Recommender_Clustering/tree/main/Visualization)
 
 
 |	Cluster no. 0	|	Cluster no. 1	|	Cluster no. 2	|	Cluster no. 3	|
