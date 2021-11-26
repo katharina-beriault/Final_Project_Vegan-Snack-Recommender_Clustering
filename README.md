@@ -11,7 +11,7 @@ With my final project I want to showcase what I have learned during my six month
 
 
 **Objective:** <br>
-The goal of this project is to be able to build a function which recommends you more similar vegan snacks according to your taste and current preferences. To do so I am using the clustering algorithm K-means. The clusters are later analyzed 
+The goal of this project is to be able to build a function which recommends you more similar vegan snacks according to your taste and current preferences. I am using the unsupervised machine learing algorithm K-means to cluster the data. The different clusters are analyzed visually with Tableau.
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -20,15 +20,15 @@ This repository contains x folders:<br>
 > **Data:** <br>
 >> 3 *CSV-files* with the data which was scraped from three websites <br>
 >> 1 *CSV-file* with the cleaned data <br>
->> 1 *CSV-file* with the cleaned data <br>
+>> 1 *CSV-file* with the clustered data <br>
 
 > **Python:**  <br>
 >> 3 Jupyter notebooks (*ipynb-file*) for web scraping with data cleaning, analysis, model building <br>
->> 1 Jupyter notebook (*ipynb-file*) with data cleaning, analysis, model building <br>
+>> 1 Jupyter notebook (*ipynb-file*) for data cleaning <br>
+>> 1 Jupyter notebook (*ipynb-file*) for data exploration and first visualizations <br>
 >> 1 Jupyter notebook (*ipynb-file*) for the model building <br>
->> 1 Jupyter notebook (*ipynb-file*) with the explanatory analysis and first visualizations <br>
->> Python functions (*py-file*) with all self-built functions used for this project <br>
->> 1 *pickle-file* saving information from scaling the data (StandardScaler) <br>
+>> 1 Jupyter notebook (*ipynb-file*) with the recommender functions <br>
+>> 1 (*py-file*) for the Streamlit presentation <br>
 
 > **Tableau:** <br>
 >> *README-file* with screenshots of the visualizations <br>
@@ -91,15 +91,27 @@ The data set provides information about:
 
 ### Project outcome/results
 
-**Business insights** 
-
-
-! MORE TO COME !
-
 
 **Clustering model results**
 
+![photo](https://latestvegannews.com/wp-content/uploads/2019/07/91FFqqXvBhL._SL1500_.jpg)
 
+![photo](https://latestvegannews.com/wp-content/uploads/2019/07/91FFqqXvBhL._SL1500_.jpg)
+
+
+|	Cluster no. 0	|	Cluster no. 1	|	Cluster no. 2	|	Cluster no. 3	|
+|	:----------	|	:----------	|	:----------	|	:----------	|
+|	low weight	|	low price	|	low calories	|	high price and weight	|
+|	high calories	|	low fibre	|	low fat	|	high fibre and protein	|
+| high fat	|	medium fat and carbs	| high carbs and sugar	|	high salt	|
+|	low carbs	|		|		|		|
+
+
+
+**User experience with Streamlit:**
+- a user will view a sample of four random products
+- after choosing the most appealing snack a new random sample of five similar products (=same cluster) is shown
+- via the product link the user can directly access an online shop to buy the product
 
 
 **Future score of work**
@@ -120,7 +132,6 @@ Possible future improvements of the model could include:
 [matplotlib.pyplot](https://matplotlib.org/3.1.1/contents.html)<br>
 [numpy](https://numpy.org/doc/)<br>
 [pandas](https://pandas.pydata.org/)<br>
-[pickle](https://docs.python.org/3/library/pickle.html)<br>
 [seaborn](https://seaborn.pydata.org/)<br>
 [scikitplot](https://pypi.org/project/scikit-plot/)<br>
 [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html)<br>
